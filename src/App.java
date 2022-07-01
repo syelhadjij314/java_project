@@ -13,6 +13,11 @@ public class App {
 
         Pavillon pavillon = new Pavillon();
         pavillon.setId(1);
+        pavillon.setId(1);
+        pavillon.setNumero(1);
+        pavillon.setNbrEtages(4);
+        service.ajouterPavillon(pavillon);
+        service.listerPavillon();
 
         chambre.setId(1);
         chambre.setNumero("ch001");

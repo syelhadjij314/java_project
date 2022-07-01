@@ -5,6 +5,17 @@ public class Pavillon {
     private int numero;
     private int nbrEtages;
 
+    private ResponsablePedagogique resp;
+
+
+    public ResponsablePedagogique getResp() {
+        return resp;
+    }
+
+    public void setResp(ResponsablePedagogique resp) {
+        this.resp = resp;
+    }
+
     public int getNbrEtages() {
         return nbrEtages;
     }

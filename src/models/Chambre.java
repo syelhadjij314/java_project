@@ -1,7 +1,6 @@
 package models;
 
 public class Chambre {
-
     private TypeChambre type;
     private int id;
     private String numero;
@@ -36,8 +35,19 @@ public class Chambre {
 
     @Override
     public String toString() {
-        return "Chambre [etage=" + etage + ", id=" + id + ", numero=" + numero + ", pavillon=" + pavillon + ", resp="
-                + resp + ", type=" + type + "]";
+        return ("Chambre [etage=" +
+                etage +
+                ", id=" +
+                id +
+                ", numero=" +
+                numero +
+                ", pavillon=" +
+                pavillon +
+                ", resp=" +
+                resp +
+                ", type=" +
+                type +
+                "]");
     }
 
     public TypeChambre getType() {
@@ -63,5 +73,4 @@ public class Chambre {
     public void setResp(ResponsablePedagogique resp) {
         this.resp = resp;
     }
-    
 }
